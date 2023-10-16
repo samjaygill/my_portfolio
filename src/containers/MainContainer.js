@@ -1,0 +1,48 @@
+import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "../components/Header";
+import "./loading.css";
+import logo from "./images/logo.jpeg";
+import Home from "../components/Home";
+import Projects from "../components/Projects";
+import About from "../components/About";
+import CV from "../components/CV";
+import CVInfo from "../components/CVInfo";
+import StoredProjects from "../data/Info";
+import ProjectCard from "../components/ProjectCard";
+
+const MainContainer = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const delay = setTimeout(() => {
+      setIsLoading(false);
+    }, 3000);
+
+    return () => clearTimeout(delay);
+  }, []);
+
+  return (
+    <Router>
+      {isLoading ? (
+        <div className="content">
+          <img src={logo} alt="Rotating" className="round-image" />
+        </div>
+      ) : (
+        <>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects projects={StoredProjects} />} />
+            <Route path="/projects/:id" element={<ProjectCard projects={StoredProjects}/>} />
+            <Route path="/about" element={<About />} />
+            <Route path="/cv" element={<CV />} />
+            <Route path="/cv/info" element={<CVInfo />} />
+          </Routes>
+        </>
+      )}
+    </Router>
+  );
+};
+
+export default MainContainer;

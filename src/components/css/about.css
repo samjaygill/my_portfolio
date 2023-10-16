@@ -1,0 +1,68 @@
+.main {
+    display: flex;
+    justify-content: center;
+    border-bottom: 30px;
+  }
+  /* .main2 {
+      display: flex;
+      display:inline-flex;
+      justify-content: center;
+      border-bottom: 30px;
+    } */
+  .self-image {
+    border-radius: 200px;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+  }
+  .beach-image {
+      flex-flow: column;
+      border-radius: 200px;
+      height: 300px;
+      width: 300px;
+      padding: 30px;
+      align-items: right;
+    }
+  .link {
+    color: black;
+  }
+  .link:hover {
+    font-size: larger;
+    font-family: bold;
+  }
+  
+  .about-me{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: .15em;
+  }
+  .about-bio{
+    align-items: center;
+    padding: 40px;
+    padding-top: 80px;
+    font-size: 18px;
+  }
+  
+  @media (max-width: 768px) {
+    .main {
+      flex-direction: column; 
+      align-items: center; 
+      padding-bottom: 30px;
+    }
+  
+    .self-image,
+    .beach-image {
+      border-radius: 50%; 
+      height: 200px; 
+      width: 200px;
+      padding: 20px; 
+    }
+  
+    .about-bio {
+      padding: 20px; 
+      font-size: 16px; 
+    }
+  }

@@ -1,0 +1,84 @@
+/* .App-header{
+    background-color: #B9B6B9;
+} */
+
+.link-list {
+    list-style: none;
+    margin-bottom: 1px;
+    font-size: 18px;
+    text-align: center;
+    display: inline;
+  }
+  
+  .home-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  .projects-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  .about-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  .cv-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  .linkedin-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  .github-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .home-link:hover {
+    text-decoration: underline;
+    font-size: larger;
+  }
+  .home-link:hover {
+    text-decoration: underline;
+    font-size: larger;
+  }
+  .projects-link:hover {
+    text-decoration: underline;
+    font-size: larger;
+  }
+  .about-link:hover {
+    text-decoration: underline;
+    font-size: larger;
+  }
+  .cv-link:hover {
+    text-decoration: underline;
+    font-size: larger;
+  }
+  .linkedin-link:hover {
+    text-decoration: underline;
+    font-size: larger;
+  }
+  .github-link:hover {
+    text-decoration: underline;
+    font-size: larger;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .link-list {
+      font-size: 14px;
+    }
+  }
+  
