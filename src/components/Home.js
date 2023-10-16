@@ -40,7 +40,7 @@ const Home = () => {
           <ProgressBar
             completed={75}
             className="wrapper"
-            barContainerClassName="container"
+            barContainerClassName="barContainer"
             completedClassName="barCompleted1"
             labelClassName="label"
           />
@@ -52,7 +52,7 @@ const Home = () => {
           <ProgressBar
             completed={80}
             className="wrapper"
-            barContainerClassName="container"
+            barContainerClassName="barContainer"
             completedClassName="barCompleted2"
             labelClassName="label"
           />
@@ -63,7 +63,7 @@ const Home = () => {
           <ProgressBar
             completed={10}
             className="wrapper"
-            barContainerClassName="container"
+            barContainerClassName="barContainer"
             completedClassName="barCompleted3"
             labelClassName="label"
           />
