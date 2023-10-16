@@ -7,7 +7,7 @@
     font-family: "SanFrancisco";
     font-size: 1.00rem;
     /* max-width: auto; */
-    padding: 0.5rem 1.5rem;
+    padding: 0.3rem 1.5rem;
     justify-content: center;
   }
   
@@ -105,7 +105,7 @@
   }
   
   .margin-b_one {
-    margin-bottom: 1rem !important;
+    margin-bottom: 0.5rem !important;
   }
   
   .margin-t_one {
