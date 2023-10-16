@@ -7,7 +7,6 @@ import ProgressBar from "@ramonak/react-progress-bar";
 const HomeHeading = styled.h3`
   text-align: center;
   font-size: 35px;
-  padding-top: 20px;
 
   @media (max-width: 768px) {
     font-size: 20px;
