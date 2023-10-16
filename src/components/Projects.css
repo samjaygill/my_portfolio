@@ -77,7 +77,8 @@
     border: none;
   }
   .project-name {
-    font-size: 13px;
+    font-size: 12px;
+  }
 
   .image {
     max-width: 60%;
