@@ -7,10 +7,12 @@ const Header = styled.h3`
     text-align: center;
     font-size: 35px;
     letter-spacing: .15em;
+    @media (max-width: 768px) {
+      margin-bottom : 15px;
+    }
     `
 
 const List = styled.li`
-display: inline-block;
 list-style-type: none;
 `
 
@@ -41,7 +43,7 @@ const Projects = ({projects}) => {
         <div>
         <Header>My Projects</Header>
         <div className='project-list-container'>
-            <ul><List>
+            <ul className='ul'><List>
             {projectList}
             </List></ul>
         </div>

@@ -82,8 +82,6 @@
 
 .label {
   font-size: 0px;
-  text-align: center;
-  color: green;
 }
 
 @keyframes typing {
@@ -114,28 +112,67 @@
   }
 
   .home-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 10px;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    align-items: center;
+    display: block; 
+    margin: 10px 20px; 
+    padding: 0;
   }
+  
   .container-2 {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 10px;
+    display: block; 
+    margin: 10px 20px;
+    padding: 10px 0px;
   }
-  .home-image {
-    place-content: center;
-  }
-  .self-image-home {
-    height: 160px;
-    text-align: center;
-    align-content: center;
-  }
+  
   .home-bio {
-    font-size: 15px;
+    font-size: 16px; 
+    margin-top: 10px;
+  }
+  
+  .main-wrapper {
+    margin: 20px 0;
+    border: 1px solid none; 
+  }
+  
+  .self-image-home {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 50%; 
+    margin-top: 10px;
+  }
+  
+  .progress-1,
+  .progress-2,
+  .progress-3 {
+    text-align: center;
+    
+    font-size: 14px; 
+    padding: 3px 0px;
+    margin: 10px 0px;
+  }
+  
+  .line {
+    border: solid 1px #c3c1c387; 
+    margin-bottom: 10px; 
+  }
+  
+  .wrapper {
+    border-radius: 50px;
+    margin: 10px 20px;
+
+  }
+  
+  .barContainer {
+    border-radius: 50px;
+  }
+  
+  .barCompleted1,
+  .barCompleted2,
+  .barCompleted3 {
+    border-radius: 50px;
+
+  }
+  
+  .label {
+    font-size: 0px; 
   }
 }
