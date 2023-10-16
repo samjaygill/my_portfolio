@@ -9,7 +9,7 @@ const HomeHeading = styled.h3`
   font-size: 35px;
 
   @media (max-width: 768px) {
-    font-size: 20px;
+    font-size: 18px;
     max-width: 100%;
     white-space: nowrap;
     animation: typing 5s steps(300, end), blink-caret 0.75s step-end infinite;
