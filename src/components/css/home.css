@@ -105,7 +105,7 @@
 
 @media (max-width: 768px) {
   .typing-header {
-    font-size: 20px;
+    font-size: 18px;
     max-width: 90%;
     white-space: nowrap;
     animation: typing 5.5s steps(300, end), blink-caret 0.75s step-end infinite;

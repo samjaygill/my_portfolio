@@ -76,6 +76,8 @@
     justify-content: center;
     border: none;
   }
+  .project-name {
+    font-size: 13px;
 
   .image {
     max-width: 60%;
