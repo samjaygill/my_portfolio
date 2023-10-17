@@ -15,7 +15,13 @@
 @media screen and (max-width: 768px) {
     #myPDF{
         width:90%;
-        height: 100%;
+        height: 200%;
         margin-top: 30px;
+    }
+    .cvPDF{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:100%;
     }
 }    
