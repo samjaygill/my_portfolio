@@ -28,7 +28,7 @@ const ProjectCard = ({ projects }) => {
       className="project-video"
       id={project.id}
       title={project.name}
-        width="560"
+        width="150%"
         height="315"
         src={project.video} 
         allowFullScreen

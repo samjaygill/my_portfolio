@@ -28,9 +28,8 @@ const Projects = ({projects}) => {
     const projectList = projects.map((project, index) => (
         <div className='project-box' key={index}>
           <StyledLink to={`/projects/${project.id}`}> 
-    <div>
+    <div className='project-info'>
     <p className='project-name'>{project.name}</p>
-    <p className='project-type'> {project.type}</p>
     <p className='project-language'> {project.language}</p>
     </div>
     <img src={project.image} alt={project.name} className='image'/>

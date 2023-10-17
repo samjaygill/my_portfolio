@@ -2,7 +2,7 @@
     text-align: center;
   }
   .card-card {
-    margin: 40px 200px 10px 200px;
+    margin: 40px 360px;
     background: #EBEAEB;
     border: none;
     border-radius: 10px;
@@ -27,13 +27,11 @@
   .project-type{
       font-size: 18px;
   }
-  .project-details{
-      padding-bottom: 30px;
-  }
   
   @media (max-width: 768px) {
       .card-container {
         text-align: center;
+        margin: 40px 0px;
       }
     
       .card-card {
