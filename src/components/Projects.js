@@ -5,7 +5,8 @@ import './Projects.css'
 
 const Header = styled.h3`
     text-align: center;
-    font-size: 35px;
+    margin: 30px 0px;
+    font-size: 30px;
     letter-spacing: .15em;
     @media (max-width: 768px) {
       margin-bottom : 15px;
