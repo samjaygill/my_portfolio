@@ -15,15 +15,8 @@ const About = () => {
           <Link to={`https://www.thisiscodebase.com/about`} className="link">
             CodeBase
           </Link>
-          . Initially, the course was run by{" "}
-          <Link to={`https://www.codeclan.com`} className="link">
-            CodeClan
-          </Link>
-          ; however, during the second week,{" "}
-          <Link to={`https://www.codeclan.com`} className="link">
-            CodeClan
-          </Link>{" "}
-          faced financial difficulties and went into liquidation.
+          . Initially, the course was run by CodeClan however, during the second
+          week, CodeClan faced financial difficulties and went into liquidation.
           <br />
           <br />
           The course provides instruction in three programming languages:
@@ -31,7 +24,7 @@ const About = () => {
           undertake a project. Python projects are individual endeavors, while
           JavaScript and Java projects are conducted in groups.
           <br />
-          <br />I am scheduled to finish the course on November 10, 2023, and
+          <br />I am scheduled to finish the course on November 16, 2023, and
           afterward, I will actively seek opportunities for a junior software
           developer position.
         </div>
