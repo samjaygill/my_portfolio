@@ -9,17 +9,16 @@
 .project-list-container {
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid #ccc;
+  border: 1px solid none;
   justify-content: center;
-
-
 }
 .ul{
   padding: 0px;
   margin: 0px;
   justify-content: center
-
-
+}
+.github{
+  text-align: center;
 }
 
 .project-name {
