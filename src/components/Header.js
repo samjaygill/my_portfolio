@@ -22,9 +22,9 @@ const Header = () => {
           <a className="linkedin-link" href="https://linkedin.com/in/sjaygill">
             Linkedin
           </a>
-          <a className="github-link" href="https://github.com/samjaygill">
+          {/* <a className="github-link" href="https://github.com/samjaygill">
             GitHub
-          </a>
+          </a> */}
         </li>
       </ul>
     </header>

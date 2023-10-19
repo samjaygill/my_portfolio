@@ -36,9 +36,10 @@ const Home = () => {
         <div className="progress-1">
           <p>PYTHON</p>
           <hr className="line" />
+          <p>Skill level:</p>
 
           <ProgressBar
-            completed={75}
+            completed={80}
             className="wrapper"
             barContainerClassName="barContainer"
             completedClassName="barCompleted1"
@@ -48,9 +49,10 @@ const Home = () => {
         <div className="progress-2">
           <p>JAVASCRIPT</p>
           <hr className="line" />
+          <p>Skill level:</p>
 
           <ProgressBar
-            completed={80}
+            completed={90}
             className="wrapper"
             barContainerClassName="barContainer"
             completedClassName="barCompleted2"
@@ -58,10 +60,12 @@ const Home = () => {
           />
         </div>
         <div className="progress-3">
-          <p>JAVA</p>
+          <p>JAVA (Currently learning)</p>
           <hr className="line" />
+        <p>Skill level:</p>
+
           <ProgressBar
-            completed={10}
+            completed={15}
             className="wrapper"
             barContainerClassName="barContainer"
             completedClassName="barCompleted3"
