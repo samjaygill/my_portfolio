@@ -3,7 +3,7 @@
   display: block;
   margin: 0 auto;
   border-radius: 10px;
-  margin-bottom:30px;
+  margin-bottom: 30px;
 }
 
 .project-list-container {
@@ -12,12 +12,12 @@
   border: 1px solid none;
   justify-content: center;
 }
-.ul{
+.ul {
   padding: 0px;
   margin: 0px;
-  justify-content: center
+  justify-content: center;
 }
-.github{
+.github {
   text-align: center;
 }
 
@@ -41,12 +41,11 @@
   padding-bottom: 10px;
 }
 
-
 .project-box {
   background: #ebeaeb;
   border: none;
   border-radius: 10px;
-  margin: 20px; 
+  margin: 20px;
   width: calc(37% - 100px);
   height: auto;
   float: inline-start;

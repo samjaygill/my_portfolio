@@ -10,25 +10,19 @@ const ChatBubble = () => {
         </p>
         <p class="from-me">Hi Samantha. Where would i find your projects?</p>
         <p class="from-them ">
-          You would find my projects{" "}
-          <Link to={`/projects/`}>here</Link>!
+          You would find my projects <Link to={`/projects/`}>here</Link>!
         </p>
         <p class="from-me">How would I find out more about you?</p>
         <p class="from-them ">
-          You can find out more info about me{" "}
-          <Link to={`/about/`}>here</Link>!
+          You can find out more info about me <Link to={`/about/`}>here</Link>!
         </p>
         <p class="from-them margin-b_one">
           If you would like to get in touch feel free to{" "}
-          <a
-            href="mailto:samantha.gillies@outlook.com?subject=Portfolio"
-            
-          >
+          <a href="mailto:samantha.gillies@outlook.com?subject=Portfolio">
             email me
           </a>
           .
         </p>
-        {/* <p class="from-me">Great! Where would I find out more info about you?</p> */}
       </div>
     </div>
   );

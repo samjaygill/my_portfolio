@@ -1,22 +1,22 @@
-.memoji-image{
-    height: 220px;
-    border-radius: 100%;
-    padding: 15px 10px 0px 10px;
-    border: solid 2px #EBEAEB;
+.memoji-image {
+  height: 220px;
+  border-radius: 100%;
+  padding: 15px 10px 0px 10px;
+  border: solid 2px #ebeaeb;
 }
-.main-wrapper{
-    margin-top: 10px;
-    padding: 11% 0px;
+.main-wrapper {
+  margin-top: 10px;
+  padding: 11% 0px;
 }
 
 @media screen and (max-width: 800px) {
-    .main-wrapper {
-        place-content: center;
-        margin: 0px;
-        padding: 0px;
-    }
+  .main-wrapper {
+    place-content: center;
+    margin: 0px;
+    padding: 0px;
+  }
 
-    .memoji-image{
-        margin-bottom: 10px;
-    }
+  .memoji-image {
+    margin-bottom: 10px;
+  }
 }

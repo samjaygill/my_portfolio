@@ -33,8 +33,14 @@ const MainContainer = () => {
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<Projects projects={StoredProjects} />} />
-            <Route path="/projects/:id" element={<ProjectCard projects={StoredProjects}/>} />
+            <Route
+              path="/projects"
+              element={<Projects projects={StoredProjects} />}
+            />
+            <Route
+              path="/projects/:id"
+              element={<ProjectCard projects={StoredProjects} />}
+            />
             <Route path="/about" element={<About />} />
             <Route path="/cv" element={<CV />} />
             <Route path="/cv/info" element={<CVInfo />} />

@@ -113,68 +113,66 @@
   }
 
   .home-container {
-    display: block; 
-    margin: 10px 20px; 
+    display: block;
+    margin: 10px 20px;
     padding: 0;
   }
-  
+
   .container-2 {
-    display: block; 
+    display: block;
     margin: 10px 20px;
     padding: 10px 0px;
   }
-  
+
   .home-bio {
-    font-size: 16px; 
+    font-size: 16px;
     margin-top: 10px;
   }
-  
+
   .main-wrapper {
     margin: 20px 0;
-    border: 1px solid none; 
+    border: 1px solid none;
     place-content: center;
   }
-  
+
   .self-image-home {
-    max-width: 100%; 
-    height: auto; 
-    border-radius: 50%; 
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
     margin-top: 10px;
   }
-  
+
   .progress-1,
   .progress-2,
   .progress-3 {
     text-align: center;
-    
-    font-size: 14px; 
+
+    font-size: 14px;
     padding: 3px 0px;
     margin: 10px 0px;
   }
-  
+
   .line {
-    border: solid 1px #c3c1c387; 
-    margin-bottom: 10px; 
+    border: solid 1px #c3c1c387;
+    margin-bottom: 10px;
   }
-  
+
   .wrapper {
     border-radius: 50px;
     margin: 10px 20px;
-
   }
-  
+
   .barContainer {
     border-radius: 50px;
   }
-  
+
   .barCompleted1,
   .barCompleted2,
   .barCompleted3 {
     border-radius: 50px;
-
   }
-  
+
   .label {
-    font-size: 0px; 
+    font-size: 0px;
   }
 }

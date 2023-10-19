@@ -1,42 +1,41 @@
-.cvPDF{
-    display: flex;
+.cvPDF {
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-.cvInfo{
-    text-align: center;
-    color: black;
-    margin-top: 20px;
+.cvInfo {
+  text-align: center;
+  color: black;
+  margin-top: 20px;
 }
-.downloadCV:link{
-    color: black;
+.downloadCV:link {
+  color: black;
 }
 
-#myPDF{
-    width:60%;
-    height: 100%;
-    margin-top: 20px;
-
+#myPDF {
+  width: 60%;
+  height: 100%;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 768px) {
-    #myPDF{
-        width:90%;
-        margin-top: 10px;
-    }
-    .cvPDF{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-    .cvInfo{
-        text-align: center;
-        margin-top: 10px;
-    }
-    .downloadCV{
-        font-size: 12px;
-    }
-}    
+  #myPDF {
+    width: 90%;
+    margin-top: 10px;
+  }
+  .cvPDF {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .cvInfo {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .downloadCV {
+    font-size: 12px;
+  }
+}

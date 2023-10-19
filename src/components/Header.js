@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './css/header.css'
+import "./css/header.css";
 
 const Header = () => {
   return (
@@ -22,9 +22,6 @@ const Header = () => {
           <a className="linkedin-link" href="https://linkedin.com/in/sjaygill">
             Linkedin
           </a>
-          {/* <a className="github-link" href="https://github.com/samjaygill">
-            GitHub
-          </a> */}
         </li>
       </ul>
     </header>

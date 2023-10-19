@@ -3,12 +3,10 @@ import beach from "./images/travel.jpeg";
 import "./css/about.css";
 import { Link } from "react-router-dom";
 
-
-
 const About = () => {
   return (
     <div>
-        <p className="about-me">About Me</p>
+      <p className="about-me">About Me</p>
       <div className="main">
         <img src={selfie} alt="me" className="self-image" />
         <div className="about-bio">

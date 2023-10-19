@@ -62,7 +62,7 @@ const Home = () => {
         <div className="progress-3">
           <p>JAVA (Currently learning)</p>
           <hr className="line" />
-        <p>Skill level:</p>
+          <p>Skill level:</p>
 
           <ProgressBar
             completed={15}
