@@ -132,6 +132,7 @@
   .main-wrapper {
     margin: 20px 0;
     border: 1px solid none; 
+    place-content: center;
   }
   
   .self-image-home {
