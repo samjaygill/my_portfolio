@@ -15,17 +15,28 @@
   justify-items: center;
   text-decoration: none;
   color: black;
-  padding-bottom: 50px;
 }
 
+.card-details{
+  line-height: 1;
+}
+
+.project-type, .project-language, .project-github {
+  font-size: 16px;
+  margin: 4px;
+
+}
+.project-bio{
+  font-size: 16px;
+  margin: 4px 0px;
+}
 .project-name {
   font-size: 25px;
+  margin: 15px 0px;
 }
-.project-language {
-  font-size: 18px;
-}
-.project-type {
-  font-size: 18px;
+
+.project-github{
+  margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {

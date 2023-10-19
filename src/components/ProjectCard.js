@@ -19,17 +19,18 @@ const ProjectCard = ({ projects }) => {
           <p className="project-name">{project.name}</p>
           <p className="project-type">{project.type} Project</p>
           <p className="project-language">Language: {project.language}</p>
-          <a href={project.link} className="project-language">
+          <p className="project-bio">{project.bio}</p>
+          <p className="project-github"><a href={project.link} >View the code for this project here:{" "}
             {project.link}
-          </a>
+          </a></p>
           <br />
         </div>
         <iframe
           className="project-video"
           id={project.id}
           title={project.name}
-          width="150%"
-          height="315"
+          width="70%"
+          height="400"
           src={project.video}
           allowFullScreen
         ></iframe>
