@@ -7,7 +7,7 @@ const StoredProjects = [
     link: "https://github.com/samjaygill/Samanthas_First_Project",
     image: "https://i.ibb.co/v3dScYS/Screenshot-2023-10-07-at-13-30-57.png",
     video: "https://www.youtube.com/embed/RezKYXbhzOs",
-    bio: "This project marked my initial endeavor following the completion of the Python module. It felt rewarding to consolidate all the knowledge I had acquired in Python. I utilized Flask for deploying the application and employed SQL as the database. The project itself is a Traveler's Bucket List application, which enables users to perform various actions such as browsing all destinations, viewing specific destinations, removing destinations, adding new ones, and searching for specific destinations.",
+    bio: "This project marked my initial endeavour following the completion of the Python module. It felt rewarding to consolidate all the knowledge I had acquired in Python. I utilized Flask for deploying the application and employed SQL as the database. The project itself is a Traveler's Bucket List application, which enables users to perform various actions such as browsing all destinations, viewing specific destinations, removing destinations, adding new ones, and searching for specific destinations."
   },
   {
     id: 2,
