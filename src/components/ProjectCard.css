@@ -28,7 +28,7 @@
 }
 .project-bio{
   font-size: 16px;
-  margin: 4px 0px;
+  margin: 4px 30px;  
 }
 .project-name {
   font-size: 25px;
@@ -37,6 +37,7 @@
 
 .project-github{
   margin-bottom: 10px;
+  margin: 0px 30px;
 }
 
 @media (max-width: 768px) {
@@ -48,6 +49,7 @@
   .card-card {
     margin: 10px;
     padding: 15px;
+    height: auto;
   }
 
   .project-name {
