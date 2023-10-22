@@ -15,12 +15,12 @@ const About = () => {
           <Link to={`https://www.thisiscodebase.com/about`} className="link">
             CodeBase
           </Link>
-          . Initially, the course was run by CodeClan however, during the second
+          . Initially, the course was run by CodeClan; however, during the second
           week, CodeClan faced financial difficulties and went into liquidation.
           <br />
           <br />
           The course provides instruction in three programming languages:
-          Python, JavaScript, and Java. At the conclusion of each language, we
+          Python, JavaScript and Java. At the conclusion of each language, we
           undertake a project. Python projects are individual endeavours, while
           JavaScript and Java projects are conducted in groups.
           <br />
