@@ -10,6 +10,7 @@ import CV from "../components/CV";
 import CVInfo from "../components/CVInfo";
 import StoredProjects from "../data/Info";
 import ProjectCard from "../components/ProjectCard";
+import { Analytics } from '@vercel/analytics/react';
 
 const MainContainer = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -47,6 +48,7 @@ const MainContainer = () => {
           </Routes>
         </>
       )}
+      <Analytics />
     </Router>
   );
 };
