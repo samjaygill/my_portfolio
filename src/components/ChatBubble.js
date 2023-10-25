@@ -6,7 +6,7 @@ const ChatBubble = () => {
     <div class="container">
       <div class="imessage">
         <p class="from-them">
-          Hello World! I'm <b>Samantha</b>. Welcome to my portfolio!
+          Hello World! I'm <b>Samantha</b>, Welcome to my portfolio!
         </p>
         <p class="from-me">Hi Samantha. Where would i find your projects?</p>
         <p class="from-them ">
