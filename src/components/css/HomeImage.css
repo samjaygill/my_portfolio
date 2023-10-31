@@ -3,6 +3,8 @@
   border-radius: 100%;
   padding: 15px 10px 0px 10px;
   border: solid 2px #ebeaeb;
+  filter: brightness(120%);
+
 }
 .main-wrapper {
   margin-top: 10px;
@@ -18,5 +20,6 @@
 
   .memoji-image {
     margin-bottom: 10px;
+    filter: brightness(120%);
   }
 }
