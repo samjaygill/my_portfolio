@@ -19,7 +19,9 @@ const ProjectCard = ({ projects }) => {
           <p className="project-name">{project.name}</p>
           <p className="project-type">{project.type} Project</p>
           <p className="project-language">Language: {project.language}</p>
+          {/* <br/> */}
           <p className="project-bio">{project.bio}</p>
+          <br/>
           <p className="project-github"><a href={project.link} >View the code for this project here:{" "}
             {project.link}
           </a></p>

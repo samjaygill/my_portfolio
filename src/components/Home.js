@@ -65,7 +65,7 @@ const Home = () => {
           <p>Skill level:</p>
 
           <ProgressBar
-            completed={70}
+            completed={80}
             className="wrapper"
             barContainerClassName="barContainer"
             completedClassName="barCompleted3"

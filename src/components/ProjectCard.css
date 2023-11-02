@@ -17,10 +17,6 @@
   color: black;
 }
 
-.card-details{
-  line-height: 1;
-}
-
 .project-type, .project-language, .project-github {
   font-size: 16px;
   margin: 4px;
