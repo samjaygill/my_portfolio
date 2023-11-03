@@ -11,6 +11,7 @@ import CVInfo from "../components/CVInfo";
 import StoredProjects from "../data/Info";
 import ProjectCard from "../components/ProjectCard";
 import { Analytics } from '@vercel/analytics/react';
+import Contact from "../components/Contact";
 
 const MainContainer = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -45,6 +46,8 @@ const MainContainer = () => {
             <Route path="/about" element={<About />} />
             <Route path="/cv" element={<CV />} />
             <Route path="/cv/info" element={<CVInfo />} />
+            <Route path="/cv/info" element={<CVInfo />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </>
       )}
