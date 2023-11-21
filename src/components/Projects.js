@@ -8,7 +8,9 @@ const Header = styled.h3`
   font-size: 30px;
   letter-spacing: 0.15em;
   @media (max-width: 768px) {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin: 15px;
   }
 `;
 
@@ -28,8 +30,7 @@ const Projects = ({ projects }) => {
     <div className="project-box" key={index}>
       <StyledLink to={`/projects/${project.id}`}>
         <div className="project-info">
-          <p className="project-name">{project.name}</p>
-          <p className="project-language"> {project.language}</p>
+          {/* <p className="project-list-name">{project.name}</p> */}
         </div>
         <img src={project.image} alt={project.name} className="image" />
       </StyledLink>

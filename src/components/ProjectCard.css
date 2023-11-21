@@ -2,11 +2,11 @@
   text-align: center;
 }
 .card-card {
-  margin: 40px 20%;
+  margin: 20px 10%;
   background: #ebeaeb;
   border: none;
   border-radius: 10px;
-  padding: 25px;
+  padding: 10px 20px;
   font: inherit;
   cursor: pointer;
   outline: inherit;
@@ -25,44 +25,88 @@
 .project-bio{
   font-size: 16px;
   margin: 4px 30px;  
+  padding-bottom: 5px;
 }
-.project-name {
+.project-card-name {
   font-size: 25px;
-  margin: 15px 0px;
+  margin: 10px 0px 20px 0px;
+  font-weight: bold;
 }
 
 .project-github{
   margin-bottom: 10px;
   margin: 0px 30px;
+  
+}
+.github-card-link{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.card-link{
+  margin: 0px;
+}
+
+.card-link:hover{
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
   .card-container {
     text-align: center;
-    margin: 40px 0px;
+    margin: 20px 0px;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+
+  }
+  .card-details{
+    text-align: center;
   }
 
   .card-card {
-    margin: 10px;
-    padding: 15px;
-    height: auto;
+    /* margin: 10px; */
+    /* padding: 15px; */
+    /* height: auto; */
+    /* width: 90%; */
+    margin: 0;
+    padding: 0;
+    /* max-width: 100%; */
   }
 
   .project-name {
     font-size: 20px;
+    max-width: 100%;
+    width: 80%;
+
   }
 
   .project-language,
   .project-type {
     font-size: 16px;
+    max-width: 100%;
+
   }
 
   .project-details {
     padding-bottom: 20px;
+    width: 80%;
+
+  }
+
+  .project-bio{
+    padding: 0 20px;
+    margin: 0;
   }
 
   .project-video {
-    width: 100%;
+    width: 85%;
     height: auto;
+    margin-bottom: 15px;
+  }
+  .card-link{
+    color: black;
+    /* margin: 0px 20px; */
+    text-align: center;
   }
 }

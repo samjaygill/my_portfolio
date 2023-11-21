@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=EB+Garamond&family=Inter&family=Oswald&display=swap');
+
+* {
+  font-family: 'EB Garamond', serif;
+}
+
 .Background {
   background-color: #c3c1c3;
 }

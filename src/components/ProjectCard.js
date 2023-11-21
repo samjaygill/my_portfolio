@@ -16,23 +16,23 @@ const ProjectCard = ({ projects }) => {
     <div className="card-container">
       <div className="card-card">
         <div className="card-details">
-          <p className="project-name">{project.name}</p>
-          <p className="project-type">{project.type} Project</p>
-          <p className="project-language">Language: {project.language}</p>
+          <p className="project-card-name">{project.name}</p>
+          {/* <p className="project-type">{project.type} Project</p>
+          <p className="project-language">Language: {project.language}</p> */}
           {/* <br/> */}
+          <p className="project-github"><a href={project.link} className="github-card-link">
+            <p className="card-link">{project.link}</p>
+          </a></p>
+          <br/>
           <p className="project-bio">{project.bio}</p>
           <br/>
-          <p className="project-github"><a href={project.link} >View the code for this project here:{" "}
-            {project.link}
-          </a></p>
-          <br />
         </div>
         <iframe
           className="project-video"
           id={project.id}
           title={project.name}
-          width="70%"
-          height="400"
+          width="60%"
+          height="350"
           src={project.video}
           allowFullScreen
         ></iframe>
