@@ -29,18 +29,19 @@ const StoredProjects = [
       "https://i.ibb.co/7SGKr8B/Screen-Capture-008-React-App-localhost.jpg",
     video: "https://www.youtube.com/embed/kMmnZMFjXNU",
     bio: "This marked my initial project upon finishing the Javascript module and it also constituted my inaugural experience with a group project. We opted for React to launch the application and employed mongoDB as our database. The collaborative aspect and the presence of project deadlines were both beneficial aspects of this endeavour. As we couldn't locate an API containing all the desired information, we took the initiative to create our own API using seed data. The project itself functions as a recipe application, enabling users to peruse a collection of recipes, access individual recipes, bookmark recipes as favourites, compile ingredient lists for shopping, perform specific recipe searches, and even contribute their own recipes to the platform."
-  },
-  {
-    id: 4,
-    name: "Sizzle & Grill Aromatic Recipes 2",
-    type: "Group",
-    language: "Javascript",
-    link: "https://github.com/samjaygill/S-GAR_Recipes",
-    image:
-      "https://i.ibb.co/YpyfBWy/Screen-Capture-009-React-App-localhost.jpg",
-    video: "https://www.youtube.com/embed/q592yfLG738",
-    bio:" This project represents a sequel to 'Sizzle & Grill Aromatic Recipes 1'. After completing the initial group project, I proceeded to make enhancements and rectify minor issues. These included resolving a problem where the placement image was not displaying correctly on individual recipes when added. Additionally, I improved the functionality related to vegan and vegetarian options by replacing it with a checkbox during the recipe addition process, resulting in better integration with the database."
-  },
+  }
+  // ,
+  // {
+  //   id: 4,
+  //   name: "Sizzle & Grill Aromatic Recipes 2",
+  //   type: "Group",
+  //   language: "Javascript",
+  //   link: "https://github.com/samjaygill/S-GAR_Recipes",
+  //   image:
+  //     "https://i.ibb.co/YpyfBWy/Screen-Capture-009-React-App-localhost.jpg",
+  //   video: "https://www.youtube.com/embed/q592yfLG738",
+  //   bio:" This project represents a sequel to 'Sizzle & Grill Aromatic Recipes 1'. After completing the initial group project, I proceeded to make enhancements and rectify minor issues. These included resolving a problem where the placement image was not displaying correctly on individual recipes when added. Additionally, I improved the functionality related to vegan and vegetarian options by replacing it with a checkbox during the recipe addition process, resulting in better integration with the database."
+  // },
 ];
 
 export default StoredProjects;
