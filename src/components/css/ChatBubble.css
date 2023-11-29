@@ -1,10 +1,10 @@
 .imessage {
-  background-color: #ebeaeb;
+  /* background-color: #ebeaeb; */
+  background-color: white;
   border: 1px solid #ebeaeb;
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
   display: flex;
   flex-direction: column;
-  font-family: "SanFrancisco";
   font-size: 1rem;
   padding: 0.3rem 1.5rem;
   justify-content: center;
@@ -17,6 +17,8 @@
   padding: 0.5rem 0.875rem;
   position: relative;
   word-wrap: break-word;
+  font-family: "SanFrancisco" !important;
+
 }
 
 .imessage p::before,
@@ -25,12 +27,15 @@
   content: "";
   height: 1rem;
   position: absolute;
+  font-family: "SanFrancisco" !important;
+
 }
 
 p.from-me {
   align-self: flex-end;
   background-color: #248bf5;
   color: #fff;
+
 }
 
 p.from-me::before {
@@ -41,11 +46,20 @@ p.from-me::before {
 }
 
 p.from-me::after {
-  background-color: #ebeaeb;
+  background-color: white;
   border-bottom-left-radius: 0.5rem;
   right: -40px;
   transform: translate(-30px, -2px);
   width: 10px;
+}
+
+.cb-link{
+  text-decoration: none;
+  font-family: "SanFrancisco" !important;
+  color: black;
+}
+.cb-link:hover{
+  text-decoration: underline;
 }
 
 p[class^="from-"] {
@@ -67,19 +81,20 @@ p.from-me ~ p.from-me:last-child {
 
 p.from-them {
   align-items: flex-start;
-  background-color: #fff;
+  background-color: #EAEAEC;
   color: #000;
 }
 
 p.from-them:before {
   border-bottom-right-radius: 0.8rem 0.7rem;
-  border-left: 1rem solid #fff;
+  border-left: 1rem solid #EAEAEC;
   left: -0.35rem;
   transform: translate(0, -0.1rem);
 }
 
 p.from-them::after {
-  background-color: #ebeaeb;
+  /* background-color: #ebeaeb; */
+  background-color: white;
   border-bottom-right-radius: 0.5rem;
   left: 20px;
   transform: translate(-30px, -2px);
