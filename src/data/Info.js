@@ -21,10 +21,10 @@ const StoredProjects = [
   },
   {
     id: 3,
-    name: "Sizzle & Grill Aromatic Recipes 1",
+    name: "Sizzle & Grill Aromatic Recipes",
     type: "Group",
     language: "Javascript",
-    link: "https://github.com/samjaygill/Recipes_project/tree/develop",
+    link: "https://github.com/samjaygill/Recipes_project",
     image:
       "https://i.ibb.co/7SGKr8B/Screen-Capture-008-React-App-localhost.jpg",
     video: "https://www.youtube.com/embed/kMmnZMFjXNU",
