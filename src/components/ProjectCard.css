@@ -13,7 +13,6 @@
   font: inherit;
   cursor: pointer;
   outline: inherit;
-  display: grid;
   justify-content: center;
   justify-items: center;
   text-decoration: none;
@@ -55,7 +54,35 @@
 }
 
 @media (max-width: 768px) {
-  .card-container {
+.card-container{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display:contents;
+}
+.card-card{
+  max-width:100%;
+  margin: 10px 10px;
+  padding: 10px 10px ;
+  text-align: center;
+}
+.project-bio{
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.project-card-name{
+  font-size: 18px;
+}
+.project-video {
+  width: 85%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+
+
+  /* .card-container {
     text-align: center;
     margin: 20px px;
     padding-top: 10%;
@@ -69,17 +96,17 @@
   }
 
   .card-card {
-    /* margin: 10px; */
-    /* padding: 15px; */
-    /* height: auto; */
-    /* width: 90%; */
+    margin: 10px; 
+    padding: 15px; 
+    height: auto;
+    width: 90%;
     margin: 0;
     padding: 0;
-    /* max-width: 100%; */
+    max-width: 100%; 
   }
 
   .project-name {
-    font-size: 20px;
+    font-size: 18px;
     max-width: 100%;
     width: 80%;
 
@@ -110,7 +137,7 @@
   }
   .card-link{
     color: black;
-    /* margin: 0px 20px; */
+     margin: 0px 20px; 
     text-align: center;
-  }
+  } */
 }
