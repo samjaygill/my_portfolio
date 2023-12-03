@@ -29,7 +29,30 @@ const StoredProjects = [
       "https://i.ibb.co/7SGKr8B/Screen-Capture-008-React-App-localhost.jpg",
     video: "https://www.youtube.com/embed/kMmnZMFjXNU",
     bio: "This marked my initial project upon finishing the Javascript module and it also constituted my inaugural experience with a group project. We opted for React to launch the application and employed mongoDB as our database. The collaborative aspect and the presence of project deadlines were both beneficial aspects of this endeavour. As we couldn't locate an API containing all the desired information, we took the initiative to create our own API using seed data. The project itself functions as a recipe application, enabling users to peruse a collection of recipes, access individual recipes, bookmark recipes as favourites, compile ingredient lists for shopping, perform specific recipe searches, and even contribute their own recipes to the platform."
+  },
+  {
+    id: 4,
+    name: "Wiggle Waggy Walks",
+    type: "Group",
+    language: "Javascript/Java",
+    link: "https://github.com/samjaygill/Capstone_Client",
+    image:
+      "https://i.ibb.co/5YbD2mJ/Screen-Capture-011-React-App-wiggle-waggy-walks-vercel-app.jpg",
+    // video: "https://www.youtube.com/embed/kMmnZMFjXNU",
+    bio: "Under construction.."
+  },
+  {
+    id: 5,
+    name: "Portfolio",
+    type: "Individual",
+    language: "Javascript",
+    link: "https://github.com/samjaygill/my_portfolio",
+    image:
+      "https://i.ibb.co/8s9Bbv9/Screen-Capture-010-Samantha-Gillies-samanthagillies-com.jpg",
+    bio: "Under construction.."
   }
+
+
   // ,
   // {
   //   id: 4,
