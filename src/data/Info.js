@@ -26,7 +26,7 @@ const StoredProjects = [
     language: "Javascript",
     link: "https://github.com/samjaygill/Recipes_project",
     image:
-      "https://i.ibb.co/7SGKr8B/Screen-Capture-008-React-App-localhost.jpg",
+      "https://i.ibb.co/vzd02W6/Screen-Capture-014-SGAR-localhost.jpg",
     video: "https://www.youtube.com/embed/kMmnZMFjXNU",
     bio: "This marked my initial project upon finishing the Javascript module and it also constituted my inaugural experience with a group project. We opted for React to launch the application and employed mongoDB as our database. The collaborative aspect and the presence of project deadlines were both beneficial aspects of this endeavour. As we couldn't locate an API containing all the desired information, we took the initiative to create our own API using seed data. The project itself functions as a recipe application, enabling users to peruse a collection of recipes, access individual recipes, bookmark recipes as favourites, compile ingredient lists for shopping, perform specific recipe searches, and even contribute their own recipes to the platform."
   },
@@ -50,9 +50,21 @@ const StoredProjects = [
     image:
       "https://i.ibb.co/8s9Bbv9/Screen-Capture-010-Samantha-Gillies-samanthagillies-com.jpg",
     bio: "Under construction.."
+  },
+  {
+    id: 6,
+    name: "Salary Calculator",
+    type: "Individual",
+    language: "Javascript",
+    link: "https://github.com/samjaygill/salary_calculator",
+    image:
+      "https://i.ibb.co/V2WGQdg/Screen-Capture-012-React-App-localhost.jpg",
+    bio: "Under construction.."
   }
 
 
+
+  
   // ,
   // {
   //   id: 4,
