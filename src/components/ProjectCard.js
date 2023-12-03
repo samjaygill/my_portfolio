@@ -1,6 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import "./ProjectCard.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const ProjectCard = ({ projects }) => {
   const { id } = useParams();
@@ -17,23 +19,27 @@ const ProjectCard = ({ projects }) => {
       <div className="card-card">
         <div className="card-details">
           <p className="project-card-name">{project.name}</p>
-          
-          <p className="project-github"><a href={project.link} className="github-card-link">
-            <p className="card-link">View..</p>
-          </a></p>
-          <br/>
+
+          <p className="project-github">
+            <a href={project.link} className="github-card-link">
+              <p className="card-link"><FontAwesomeIcon icon={faGithub} className="github-logo"/></p>
+            </a>
+          </p>
+          <br />
           <p className="project-bio">{project.bio}</p>
-          <br/>
+          <br />
         </div>
-        <iframe
-          className="project-video"
-          id={project.id}
-          title={project.name}
-          width="60%"
-          height="350"
-          src={project.video}
-          allowFullScreen
-        ></iframe>
+        {project.video ? (
+          <iframe
+            className="project-video"
+            id={project.id}
+            title={project.name}
+            width="60%"
+            height="350"
+            src={project.video}
+            allowFullScreen
+          ></iframe>
+        ) : null}
       </div>
     </div>
   );

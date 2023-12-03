@@ -11,7 +11,6 @@
   border-radius: 10px;
   padding: 10px 20px;
   font: inherit;
-  cursor: pointer;
   outline: inherit;
   justify-content: center;
   justify-items: center;
@@ -39,6 +38,12 @@
   margin-bottom: 10px;
   margin: 0px 30px;
   
+}
+.github-logo{
+  font-size: 25px;
+  }
+.github-logo:hover{
+color: grey;
 }
 .github-card-link{
   color: black;
