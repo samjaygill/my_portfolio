@@ -17,9 +17,9 @@
 }
 .container-2 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
-  margin: 0px 30px;
+  margin: 0px 20px;
 }
 .home-bio {
   font-size: 18px;
@@ -41,11 +41,12 @@
 
 .progress-1,
 .progress-2,
-.progress-3 {
+.progress-3,
+.progress-4 {
   background: #ebeaeb;
   border-radius: 0.5rem;
   text-align: center;
-  margin: 20px 30px 10px;
+  margin: 20px 0px 10px;
   font-size: 13px;
 }
 .line {
@@ -77,6 +78,11 @@
 .barCompleted3 {
   background-color: #c3c1c3;
   width: 85%;
+  border-radius: 50px;
+}
+.barCompleted4 {
+  background-color: #c3c1c3;
+  width: 5%;
   border-radius: 50px;
 }
 
@@ -115,12 +121,14 @@
     display: block;
     margin: 10px 20px;
     padding: 0;
+    max-width: 100%;
   }
 
   .container-2 {
     display: block;
     margin: 10px 20px;
     padding: 10px 0px;
+    max-width: 100%;
   }
 
   .home-bio {
@@ -143,7 +151,8 @@
 
   .progress-1,
   .progress-2,
-  .progress-3 {
+  .progress-3,
+  .progress-4 {
     text-align: center;
 
     font-size: 14px;
@@ -167,7 +176,8 @@
 
   .barCompleted1,
   .barCompleted2,
-  .barCompleted3 {
+  .barCompleted3,
+  .barCompleted4 {
     border-radius: 50px;
   }
 

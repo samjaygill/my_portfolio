@@ -72,6 +72,19 @@ const Home = () => {
             labelClassName="label"
           />
         </div>
+        <div className="progress-4">
+          <p>TYPESCRIPT (Currently learning)</p>
+          <hr className="line" />
+          <p>Skill level:</p>
+
+          <ProgressBar
+            completed={5}
+            className="wrapper"
+            barContainerClassName="barContainer"
+            completedClassName="barCompleted4"
+            labelClassName="label"
+          />
+        </div>
       </div>
     </>
   );
