@@ -4,8 +4,7 @@
   justify-content: center;
 }
 .card-card {
-  /* margin: 10% 10%; */
-  margin: 3% 10%;
+  margin: 2% 10%;
   background: #ebeaeb;
   border: none;
   border-radius: 10px;
@@ -30,7 +29,7 @@
 }
 .project-card-name {
   font-size: 25px;
-  margin: 10px 0px 20px 0px;
+  margin: 0px 0px 10px 0px;
   font-weight: bold;
 }
 

@@ -19,13 +19,11 @@ const ProjectCard = ({ projects }) => {
       <div className="card-card">
         <div className="card-details">
           <p className="project-card-name">{project.name}</p>
-
           <p className="project-github">
             <a href={project.link} className="github-card-link">
               <p className="card-link"><FontAwesomeIcon icon={faGithub} className="github-logo"/></p>
             </a>
           </p>
-          <br />
           <p className="project-bio">{project.bio}</p>
           <br />
         </div>
