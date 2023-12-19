@@ -19,6 +19,11 @@ const ProjectCard = ({ projects }) => {
       <div className="card-card">
         <div className="card-details">
           <p className="project-card-name">{project.name}</p>
+          {project.url ? (
+            <p className="project-url">
+              <a href={project.url} className="url-link">view here</a>
+              </p>
+          ) : null}
           <p className="project-github">
             <a href={project.link} className="github-card-link">
               <p className="card-link"><FontAwesomeIcon icon={faGithub} className="github-logo"/></p>

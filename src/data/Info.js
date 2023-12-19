@@ -24,6 +24,7 @@ const StoredProjects = [
     name: "Sizzle & Grill Aromatic Recipes",
     type: "Group",
     language: "Javascript",
+    url: "https://sgar-recipes.vercel.app/",
     link: "https://github.com/samjaygill/Recipes_project",
     image: "https://i.ibb.co/vzd02W6/Screen-Capture-014-SGAR-localhost.jpg",
     video: "https://www.youtube.com/embed/_aXYjx17WDk?si=jKmWG2KSbqiKDcIs",
