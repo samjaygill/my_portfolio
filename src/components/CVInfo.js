@@ -1,4 +1,4 @@
-import cv from "./images/SG_CV_2023.pdf";
+import cv from "./images/SG.pdf";
 import "./css/CVInfo.css";
 
 const CVInfo = () => {
