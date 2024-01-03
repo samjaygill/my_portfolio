@@ -109,6 +109,7 @@
   }
 }
 
+
 @media (max-width: 768px) {
   .typing-header {
     font-size: 18px;
@@ -127,7 +128,6 @@
   .container-2 {
     display: block;
     margin: 10px 20px;
-    padding: 10px 0px;
     max-width: 100%;
   }
 
@@ -154,7 +154,6 @@
   .progress-3,
   .progress-4 {
     text-align: center;
-
     font-size: 14px;
     padding: 3px 0px;
     margin: 10px 0px;
@@ -184,4 +183,5 @@
   .label {
     font-size: 0px;
   }
+
 }

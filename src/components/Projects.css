@@ -4,9 +4,9 @@
   object-fit: contain;
   display: block;
   margin: 0 auto;
-  border-radius: 10px;
+  border-radius: 0px;
   /* border: 2px solid black; */
-  box-shadow: 2px 2px rgb(93, 93, 93);
+  box-shadow: 3px 3px rgb(170, 170, 170);
 }
 
 .project-list-container {
@@ -76,7 +76,7 @@
   }
 
   .image {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
   }
   .ul {
@@ -85,7 +85,7 @@
   }
 
   .github{
-    font-size: 15px;
+    font-size: 13px;
     padding: 0px 10px;
   }
 }

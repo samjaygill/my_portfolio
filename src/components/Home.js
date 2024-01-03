@@ -13,6 +13,7 @@ const HomeHeading = styled.h3`
     max-width: 100%;
     white-space: nowrap;
     animation: typing 5s steps(300, end), blink-caret 0.75s step-end infinite;
+    margin-bottom: 10px;
   }
 `;
 

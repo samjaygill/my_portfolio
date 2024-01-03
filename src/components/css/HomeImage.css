@@ -21,5 +21,6 @@
   .memoji-image {
     margin-bottom: 10px;
     filter: brightness(120%);
+    height: 150px;
   }
 }
