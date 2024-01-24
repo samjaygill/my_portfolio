@@ -1,8 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import "./ProjectCard.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const ProjectCard = ({ projects }) => {
   const { id } = useParams();
@@ -24,18 +22,19 @@ const ProjectCard = ({ projects }) => {
               id={project.id}
               title={project.name}
               width="100%"
-              height="350"
+              height="300"
               src={project.video}
               allowFullScreen
             ></iframe>
-          ) : null}
+          ) : 
+          <img src={project.image} className="pc-image"/>}
         </div>
         <div className="card-details">
           <p className="project-card-name">{project.name}</p>
           {project.url ? (
             <p className="project-url">
               <a href={project.url} className="url-link">
-                view here
+                {project.url}
               </a>
             </p>
           ) : null}

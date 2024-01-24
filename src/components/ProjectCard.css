@@ -5,40 +5,52 @@
 display: flex;
 background-color: #ebeaeb;
 padding: 2.5%;
+border: 0.25px solid black;
+
 }
 .video{
-flex: 1 60%;
-margin: 1%;
+flex: 1 50%;
+margin: 2%;
+align-self: center;
+
 }
 .card-details{
-  flex: 2 40%;
-  margin: 1%;
+  flex: 2 50%;
+  margin: 2%;
 }
 
-.project-type, .project-language, .project-github {
+.project-type, .project-github {
   font-size: 16px;
-  margin: 4px;
 
 }
 .project-bio{
   font-size: 16px;
-  margin: 2%;
+  /* margin: 2%; */
 }
 .project-card-name {
-  font-size: 25px;
+  font-size: 30px;
   margin: 0px 0px 10px 0px;
   font-weight: bold;
+  text-align: center;
+}
+.pc-image{
+  border: 2px solid black;
+  width: 100%;
 }
 
 .project-github{
   margin-bottom: 1%;
 }
 .project-url{
-  margin: 4px 0;
   color: black;
 }
 .url-link{
   text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.url-link:hover{
+  text-decoration: underline;
   color: black;
 }
 .github-logo{
@@ -65,90 +77,29 @@ color: grey;
 }
 
 @media (max-width: 768px) {
-.card-container{
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  display:contents;
-}
-.card-card{
-  max-width:100%;
-  margin: 10px 10px;
-  padding: 10px 10px ;
-  text-align: center;
-}
-.project-bio{
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-}
 .project-card-name{
   font-size: 18px;
 }
 .project-video {
-  width: 85%;
+  width: 100%;
   height: auto;
-  margin-bottom: 15px;
 }
+@media (max-width: 430px) {
+  .card-card{
+    display: flex;
+flex-direction: column;
+    padding: 2.5%;
+    }
+    .video{
+    margin-bottom: 2.5%;
+    
+    }
+    .card-details{
+      margin: 2%;
+    }
+    .project-card-name{
+      font-size: 20px;
+    }
 
-
-
-  /* .card-container {
-    text-align: center;
-    margin: 20px px;
-    padding-top: 10%;
-    justify-content: center;
-    width: 100%;
-    max-width: 100%;
-
-  }
-  .card-details{
-    text-align: center;
-  }
-
-  .card-card {
-    margin: 10px; 
-    padding: 15px; 
-    height: auto;
-    width: 90%;
-    margin: 0;
-    padding: 0;
-    max-width: 100%; 
-  }
-
-  .project-name {
-    font-size: 18px;
-    max-width: 100%;
-    width: 80%;
-
-  }
-
-  .project-language,
-  .project-type {
-    font-size: 16px;
-    max-width: 100%;
-
-  }
-
-  .project-details {
-    padding-bottom: 20px;
-    width: 80%;
-
-  }
-
-  .project-bio{
-    padding: 0 20px;
-    margin: 0;
-  }
-
-  .project-video {
-    width: 85%;
-    height: auto;
-    margin-bottom: 15px;
-  }
-  .card-link{
-    color: black;
-     margin: 0px 20px; 
-    text-align: center;
-  } */
+}
 }
