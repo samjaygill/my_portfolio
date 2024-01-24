@@ -1,20 +1,18 @@
-.card-container {
-  text-align: center;
-  display: flex;
-  justify-content: center;
+.card-container{
+  margin: 2.5% 5%;
 }
-.card-card {
-  margin: 2% 10%;
-  background: #ebeaeb;
-  border: none;
-  border-radius: 10px;
-  padding: 10px 20px;
-  font: inherit;
-  outline: inherit;
-  justify-content: center;
-  justify-items: center;
-  text-decoration: none;
-  color: black;
+.card-card{
+display: flex;
+background-color: #ebeaeb;
+padding: 2.5%;
+}
+.video{
+flex: 1 60%;
+margin: 1%;
+}
+.card-details{
+  flex: 2 40%;
+  margin: 1%;
 }
 
 .project-type, .project-language, .project-github {
@@ -24,8 +22,7 @@
 }
 .project-bio{
   font-size: 16px;
-  margin: 4px 30px;  
-  padding-bottom: 5px;
+  margin: 2%;
 }
 .project-card-name {
   font-size: 25px;
@@ -34,8 +31,7 @@
 }
 
 .project-github{
-  margin-bottom: 10px;
-  margin: 0px 30px;
+  margin-bottom: 1%;
 }
 .project-url{
   margin: 4px 0;
@@ -54,7 +50,11 @@ color: grey;
 .github-card-link{
   color: black;
   text-decoration: none;
+  font-weight: bold;
   cursor: pointer;
+}
+.github-card-link:hover{
+  text-decoration: underline;
 }
 .card-link{
   margin: 0px;

@@ -1,8 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import "./ProjectCard.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const ProjectCard = ({ projects }) => {
   const { id } = useParams();
@@ -17,32 +17,51 @@ const ProjectCard = ({ projects }) => {
   return (
     <div className="card-container">
       <div className="card-card">
+        <div className="video">
+          {project.video ? (
+            <iframe
+              className="project-video"
+              id={project.id}
+              title={project.name}
+              width="100%"
+              height="350"
+              src={project.video}
+              allowFullScreen
+            ></iframe>
+          ) : null}
+        </div>
         <div className="card-details">
           <p className="project-card-name">{project.name}</p>
           {project.url ? (
             <p className="project-url">
-              <a href={project.url} className="url-link">view here</a>
-              </p>
+              <a href={project.url} className="url-link">
+                view here
+              </a>
+            </p>
           ) : null}
           <p className="project-github">
-            <a href={project.link} className="github-card-link">
-              <p className="card-link"><FontAwesomeIcon icon={faGithub} className="github-logo"/></p>
-            </a>
+            {project.linkClient && project.linkServer ? (
+              <p>
+                View the code:{" "}
+                <a href={project.linkClient} className="github-card-link">
+                  Client
+                </a>{" "}
+                |{" "}
+                <a href={project.linkServer} className="github-card-link">
+                  Server
+                </a>
+              </p>
+            ) : (
+              <p>
+                View the code:{" "}
+                <a href={project.linkClient} className="github-card-link">
+                  Client
+                </a>
+              </p>
+            )}
           </p>
           <p className="project-bio">{project.bio}</p>
-          <br />
         </div>
-        {project.video ? (
-          <iframe
-            className="project-video"
-            id={project.id}
-            title={project.name}
-            width="60%"
-            height="350"
-            src={project.video}
-            allowFullScreen
-          ></iframe>
-        ) : null}
       </div>
     </div>
   );
