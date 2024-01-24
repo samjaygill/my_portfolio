@@ -34,7 +34,7 @@ const StoredProjects = [
     id: 4,
     name: "Wiggle Waggy Walks",
     type: "Group",
-    language: "Javascript/Java",
+    language: "Javascript | Java",
     link: "https://github.com/samjaygill/Capstone_Client",
     image: [
       "https://i.ibb.co/5YbD2mJ/Screen-Capture-011-React-App-wiggle-waggy-walks-vercel-app.jpg",
@@ -44,6 +44,18 @@ const StoredProjects = [
   },
   {
     id: 5,
+    name: "Find My Next Home",
+    type: "Individual ",
+    language: "Javascript | Java",
+    link: "https://github.com/samjaygill/findmynexthome_client",
+    image: [
+      "https://i.ibb.co/kmkj34M/Screen-Capture-015-React-App-localhost.jpg",
+    ],
+    // video: "https://www.youtube.com/embed/kMmnZMFjXNU",
+    bio: "Currently working on...",
+  },
+  {
+    id: 6,
     name: "My Portfolio",
     type: "Individual",
     language: "Javascript",
@@ -52,18 +64,6 @@ const StoredProjects = [
       "https://i.ibb.co/8s9Bbv9/Screen-Capture-010-Samantha-Gillies-samanthagillies-com.jpg",
     ],
     bio: 'Welcome to my digital showcase—your current view is my portfolio, meticulously crafted with React and JavaScript. This responsive website offers users a seamless experience to explore my projects, complete with convenient links to their respective GitHub repositories. Dive into the "About Me" section to get to know the mind behind the code, and feel free to drop me an email with any inquiries or collaborations. For a more detailed overview of my professional journey, you can peruse my current CV. My portfolio is designed to be both visually appealing and functionally efficient, reflecting my dedication to creating engaging and user-friendly web experiences. Explore, connect, and get a glimpse of the projects that define my coding journey—all right here on my React-powered portfolio.',
-  },
-  {
-    id: 6,
-    name: "Salary Calculator",
-    type: "Individual",
-    language: "Javascript",
-    link: "https://github.com/samjaygill/salary_calculator",
-    image: [
-      "https://i.ibb.co/V2WGQdg/Screen-Capture-012-React-App-localhost.jpg",
-    ],
-    video: "https://www.youtube.com/embed/gRQd55ntG7o?si=I1elGua0KsgvBbq9",
-    bio: "Introducing Salary Calculator, a fundamental React website crafted with JavaScript—a project borne out of my desire to refine various JavaScript skills. Salary Calculator provides a straightforward yet powerful tool for users to calculate their annual salary based on the hours worked and their hourly wage. It also offers the flexibility to determine hourly earnings by inputting weekly hours worked and annual salary. With a clean and intuitive interface, users can seamlessly input their data, empowering them to swiftly obtain accurate calculations for their annual and hourly income. Salary Calculator is a testament to the practical application of JavaScript skills, offering a user-friendly experience for individuals eager to gain quick insights into their financial scenarios.",
   },
 
   // ,
