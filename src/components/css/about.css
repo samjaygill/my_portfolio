@@ -42,6 +42,12 @@
   padding: 40px 40px 40px;
   font-size: 18px;
 }
+.about-line{
+  border: 0.5px solid #716969;
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
 
 @media (max-width: 768px) {
   .main {

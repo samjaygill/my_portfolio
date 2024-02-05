@@ -32,6 +32,7 @@ const About = () => {
           next phase of my professional journey.
         </div>
       </div>
+      <hr className="about-line"/>
       <div className="main">
         <img src={beach} alt="me" className="beach-image" />
         <div className="about-bio">
