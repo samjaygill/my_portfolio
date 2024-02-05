@@ -79,7 +79,7 @@ const Home = () => {
           />
         </div>
         <div className="progress-4">
-          <p>TYPESCRIPT (Currently learning)</p>
+          <p>TYPESCRIPT (Learning)</p>
           <hr className="line" />
           <p>Skill level:</p>
 

@@ -136,7 +136,9 @@ padding: 0 5%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-    margin: 0px 10px;
+    width: 90%;
+    padding: 0;
+    margin: 0 20px;
   }
 
 
@@ -152,7 +154,7 @@ padding: 0 5%;
   }
 
   .self-image-home {
-    max-width: 100%;
+    max-width: 95%;
     height: auto;
     border-radius: 50%;
     margin-top: 10px;
@@ -165,7 +167,7 @@ padding: 0 5%;
     text-align: center;
     font-size: 14px;
     padding: 3px 0px;
-    margin: 10px 0px;
+    /* margin: 10px 0px; */
   }
 
   .wrapper {
