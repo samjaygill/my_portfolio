@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "../components/Header";
 import "./loading.css";
-import logo from "./images/logo.jpeg";
+import logo from "./images/logo.png";
 import Home from "../components/Home";
 import Projects from "../components/Projects";
 import About from "../components/About";

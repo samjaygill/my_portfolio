@@ -1,3 +1,9 @@
+.App-header{
+  background-color: #716969;
+  padding: 20px;
+  border: solid 1px #BCABAE;
+}
+
 .link-list {
   list-style: none;
   margin-bottom: 1px;
@@ -10,37 +16,37 @@
   margin-right: 10px;
   margin-left: 10px;
   text-decoration: none;
-  color: black;
+  color: #FBFBFB;
 }
 .projects-link {
   margin-right: 10px;
   margin-left: 10px;
   text-decoration: none;
-  color: black;
+  color: #FBFBFB;
 }
 .about-link {
   margin-right: 10px;
   margin-left: 10px;
   text-decoration: none;
-  color: black;
+  color: #FBFBFB;
 }
 .cv-link {
   margin-right: 10px;
   margin-left: 10px;
   text-decoration: none;
-  color: black;
+  color: #FBFBFB;
 }
 .linkedin-link {
   margin-right: 10px;
   margin-left: 10px;
   text-decoration: none;
-  color: black;
+  color: #FBFBFB;
 }
 .github-link {
   margin-right: 10px;
   margin-left: 10px;
   text-decoration: none;
-  color: black;
+  color: #FBFBFB;
 }
 
 .home-link:hover {

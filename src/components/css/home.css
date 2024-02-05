@@ -1,11 +1,12 @@
 .typing-header {
   overflow: hidden;
   border-right: 0.15em solid black;
-  font-size: 30px;
+  font-size: 50px;
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: 0.15em;
   animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+  color: #716969;
 }
 
 .home-container {
@@ -43,14 +44,17 @@
 .progress-2,
 .progress-3,
 .progress-4 {
-  background: #ebeaeb;
-  border-radius: 0.5rem;
+  background: #716969;
+  border-radius: 0.2rem;
   text-align: center;
   margin: 20px 0px 10px;
   font-size: 13px;
+  color: white;
+  font-weight: bold;
+  border: solid 1px #BCABAE;
 }
 .line {
-  border: solid 0.3px #c3c1c387;
+  border: solid 0.3px #BCABAE;
   margin-bottom: 20px;
 }
 
@@ -63,25 +67,26 @@
   background-color: white;
   border-radius: 50px;
   margin-bottom: 20px;
+  border: solid 2px #BCABAE;
 }
 
 .barCompleted1 {
-  background-color: #c3c1c3;
+  background-color: #BCABAE;
   width: 85%;
   border-radius: 50px;
 }
 .barCompleted2 {
-  background-color: #c3c1c3;
+  background-color: #BCABAE;
   width: 90%;
   border-radius: 50px;
 }
 .barCompleted3 {
-  background-color: #c3c1c3;
+  background-color: #BCABAE;
   width: 85%;
   border-radius: 50px;
 }
 .barCompleted4 {
-  background-color: #c3c1c3;
+  background-color: #BCABAE;
   width: 5%;
   border-radius: 50px;
 }

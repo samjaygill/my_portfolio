@@ -7,14 +7,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #c3c1c3;
+  background-color: #BCABAE;
 }
 
 .round-image {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   margin: 0 auto;
+  border: solid 2px #716969;
 }
 
 .loading-container {
