@@ -7,11 +7,11 @@
   border-radius: 0px;
   /* border: 2px solid black; */
   box-shadow: 3px 3px rgb(170, 170, 170);
-  box-shadow: linear-gradient(
+  /* box-shadow: linear-gradient(
     270deg,
     rgb(255, 254, 254) 10%,
     rgba(247, 247, 239, 1) 100%
-  );
+  ); */
 }
 
 .project-list-container {
@@ -31,13 +31,6 @@
 }
 
 .project-list-name {
-  /* color: black;
-  text-decoration: none;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold; */
   position:absolute;
     width: calc(37% - 100px);
     font-size: 12px;

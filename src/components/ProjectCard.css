@@ -1,12 +1,14 @@
 .card-container{
   margin: 2.5% 5%;
+  height: 81vh;
 }
 .card-card{
 display: flex;
-background-color: #ebeaeb;
+background-color: #EDE8E9;
 padding: 2.5%;
-border: 0.25px solid black;
-
+border: 2px solid #716969;
+box-shadow: 5px 5px rgb(230, 230, 230);
+align-items: center;
 }
 .video{
 flex: 1 50%;
@@ -32,9 +34,10 @@ align-self: center;
   margin: 0px 0px 10px 0px;
   font-weight: bold;
   text-align: center;
+  color: #2D2E2E;
 }
 .pc-image{
-  border: 2px solid black;
+  border: 2px solid #716969;
   width: 100%;
 }
 
@@ -42,16 +45,16 @@ align-self: center;
   margin-bottom: 1%;
 }
 .project-url{
-  color: black;
+  color: #2D2E2E;
 }
 .url-link{
   text-decoration: none;
-  color: black;
+  color: #2D2E2E;
   font-weight: bold;
 }
 .url-link:hover{
   text-decoration: underline;
-  color: black;
+  color: #2D2E2E;
 }
 .github-logo{
   font-size: 25px;
@@ -60,7 +63,7 @@ align-self: center;
 color: grey;
 }
 .github-card-link{
-  color: black;
+  color: #2D2E2E;
   text-decoration: none;
   font-weight: bold;
   cursor: pointer;

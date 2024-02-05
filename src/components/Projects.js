@@ -7,6 +7,7 @@ const Header = styled.h3`
   margin: 30px 0px;
   font-size: 30px;
   letter-spacing: 0.15em;
+  color: #716969;
   @media (max-width: 768px) {
     margin-bottom: 10px;
     font-size: 20px;
