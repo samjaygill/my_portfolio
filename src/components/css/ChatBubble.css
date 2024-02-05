@@ -181,8 +181,8 @@ h2 {
 
   .imessage {
     background-color: white;
-    border: 1px solid #ebeaeb;
-    display: block;
+    border: 2px solid #716969;
+    
     font-family: "SanFrancisco", sans-serif;
     font-size: 16px;
     max-width: 90%;
@@ -197,4 +197,7 @@ h2 {
     padding: 0.5rem 0.875rem;
     word-wrap: break-word;
   }
+  p.from-me {
+    align-self: flex-end !important;
+}
 }
