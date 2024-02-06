@@ -78,7 +78,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .App-header{
+    padding: 15px 10px;
+  }
   .link-list {
-    font-size: 12px;
+    font-size: 13.5px;
   }
 }
