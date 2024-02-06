@@ -1,6 +1,11 @@
 body {
   background: #323641;
 }
+.cv-para{
+  text-align: center;
+  font-size: 15px;
+  color: #716969;
+}
 
 .letter-image {
   position: absolute;
