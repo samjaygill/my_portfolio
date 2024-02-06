@@ -1,9 +1,10 @@
-import { Link } from "react-router-dom";
+import cv from "./images/SG.pdf";
 import "./css/cv.css";
 
 const CV = () => {
   return (
-    <Link to="/cv/info">
+    <>
+    <a href={cv} download="Samantha_Gillies.pdf" className="downloadCV">
       <div className="letter-image">
         <div className="animated-mail">
           <div className="back-fold"></div>
@@ -21,7 +22,8 @@ const CV = () => {
         </div>
         <div className="shadow"></div>
       </div>
-    </Link>
+      </a>
+    </>
   );
 };
 
