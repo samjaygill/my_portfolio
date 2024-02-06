@@ -64,7 +64,7 @@ const StoredProjects = [
     language: "Javascript",
     linkClient: "https://github.com/samjaygill/my_portfolio",
     image: [
-      "https://i.ibb.co/8s9Bbv9/Screen-Capture-010-Samantha-Gillies-samanthagillies-com.jpg",
+      "https://i.ibb.co/MPYVG6q/Screen-Capture-016-Samantha-Gillies-localhost.jpg",
     ],
     bio: 'Welcome to my digital showcase—your current view is my portfolio, meticulously crafted with React and JavaScript. This responsive website offers users a seamless experience to explore my projects, complete with convenient links to their respective GitHub repositories. Dive into the "About Me" section to get to know the mind behind the code, and feel free to drop me an email with any inquiries or collaborations. For a more detailed overview of my professional journey, you can peruse my current CV. My portfolio is designed to be both visually appealing and functionally efficient, reflecting my dedication to creating engaging and user-friendly web experiences. Explore, connect, and get a glimpse of the projects that define my coding journey—all right here on my React-powered portfolio.',
   },

@@ -1,6 +1,9 @@
 .card-container{
-  margin: 2.5% 5%;
-  height: 80vh;
+  margin: 6% 10%;
+  height: 65vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 .card-card{
 display: flex;
