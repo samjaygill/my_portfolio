@@ -27,7 +27,7 @@ const ProjectCard = ({ projects }) => {
               allowFullScreen
             ></iframe>
           ) : 
-          <img src={project.image} className="pc-image"/>}
+          <img src={project.image} alt="website" className="pc-image"/>}
         </div>
         <div className="card-details">
           <p className="project-card-name">{project.name}</p>

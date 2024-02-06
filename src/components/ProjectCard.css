@@ -96,8 +96,9 @@
       padding: 2.5%;
     }
     .card-container {
-      margin: 2% 2%;
+      margin: 5% 2.5%;
       height: 100%;
+      align-content: center;
     }
     .video {
       margin-bottom: 2.5%;
