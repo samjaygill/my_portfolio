@@ -1,34 +1,33 @@
-.card-container{
+.card-container {
   margin: 6% 10%;
   height: 65vh;
   display: flex;
   align-content: center;
   justify-content: center;
 }
-.card-card{
-display: flex;
-background-color: #F5F4F4;
-padding: 2.5%;
-border: 2px solid #716969;
-box-shadow: 5px 5px rgb(230, 230, 230);
-align-items: center;
+.card-card {
+  display: flex;
+  background-color: #f5f4f4;
+  padding: 2.5%;
+  border: 2px solid #716969;
+  box-shadow: 5px 5px rgb(230, 230, 230);
+  align-items: center;
 }
-.video{
-flex: 1 50%;
-margin: 2%;
-align-self: center;
-
+.video {
+  flex: 1 50%;
+  margin: 2%;
+  align-self: center;
 }
-.card-details{
+.card-details {
   flex: 2 50%;
   margin: 2%;
 }
 
-.project-type, .project-github {
+.project-type,
+.project-github {
   font-size: 16px;
-
 }
-.project-bio{
+.project-bio {
   font-size: 16px;
   /* margin: 2%; */
 }
@@ -37,75 +36,80 @@ align-self: center;
   margin: 0px 0px 10px 0px;
   font-weight: bold;
   text-align: center;
-  color: #2D2E2E;
+  color: #2d2e2e;
 }
-.pc-image{
+.pc-image {
   border: 2px solid #716969;
   width: 100%;
 }
 
-.project-github{
+.project-github {
   margin-bottom: 1%;
 }
-.project-url{
-  color: #2D2E2E;
+.project-url {
+  color: #2d2e2e;
 }
-.url-link{
+.url-link {
   text-decoration: none;
-  color: #2D2E2E;
+  color: #2d2e2e;
   font-weight: bold;
 }
-.url-link:hover{
+.url-link:hover {
   text-decoration: underline;
-  color: #2D2E2E;
+  color: #2d2e2e;
 }
-.github-logo{
+.github-logo {
   font-size: 25px;
-  }
-.github-logo:hover{
-color: grey;
 }
-.github-card-link{
-  color: #2D2E2E;
+.github-logo:hover {
+  color: grey;
+}
+.github-card-link {
+  color: #2d2e2e;
   text-decoration: none;
   font-weight: bold;
   cursor: pointer;
 }
-.github-card-link:hover{
+.github-card-link:hover {
   text-decoration: underline;
 }
-.card-link{
+.card-link {
   margin: 0px;
 }
 
-.card-link:hover{
+.card-link:hover {
   text-decoration: underline;
 }
 
 @media (max-width: 768px) {
-.project-card-name{
-  font-size: 18px;
-}
-.project-video {
-  width: 100%;
-  height: auto;
-}
-@media (max-width: 430px) {
-  .card-card{
-    display: flex;
-flex-direction: column;
-    padding: 2.5%;
+  .project-card-name {
+    font-size: 18px;
+  }
+  .project-video {
+    width: 100%;
+    height: auto;
+  }
+  @media (max-width: 430px) {
+    .card-card {
+      display: flex;
+      flex-direction: column;
+      padding: 2.5%;
     }
-    .video{
-    margin-bottom: 2.5%;
-    
+    .card-container {
+      margin: 2% 2%;
+      height: 100%;
     }
-    .card-details{
+    .video {
+      margin-bottom: 2.5%;
+    }
+    .card-details {
       margin: 2%;
     }
-    .project-card-name{
+    .project-card-name {
       font-size: 20px;
     }
-
-}
+    .project-bio{
+      font-size: 14px;
+    }
+  }
 }
