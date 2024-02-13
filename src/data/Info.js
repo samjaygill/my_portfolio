@@ -47,13 +47,14 @@ const StoredProjects = [
   {
     id: 5,
     name: "Find My Next Home",
-    type: "Individual ",
+    type: "Individual",
     language: "Javascript | Java",
     linkClient: "https://github.com/samjaygill/findmynexthome_client",
     linkServer: "https://github.com/samjaygill/findmynexthome_server",
     image: [
       "https://i.ibb.co/kmkj34M/Screen-Capture-015-React-App-localhost.jpg",
     ],
+    video: "https://www.youtube.com/embed/wF6LBKonoBY?si=F1I4eESLl2QiHn9B",
     // video: "https://www.youtube.com/embed/kMmnZMFjXNU",
     bio: "Currently working on...",
   },
