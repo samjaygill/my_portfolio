@@ -55,7 +55,6 @@ const StoredProjects = [
       "https://i.ibb.co/kmkj34M/Screen-Capture-015-React-App-localhost.jpg",
     ],
     video: "https://www.youtube.com/embed/wF6LBKonoBY?si=F1I4eESLl2QiHn9B",
-    // video: "https://www.youtube.com/embed/kMmnZMFjXNU",
     bio: "Currently working on...",
   },
   {
