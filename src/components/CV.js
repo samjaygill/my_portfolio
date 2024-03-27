@@ -5,7 +5,7 @@ const CV = () => {
   return (
     <>
     <p className="cv-para">Please click envelope to download CV.</p>
-    <a href={cv} download="Samantha_Gillies.pdf" className="downloadCV">
+    <a href={cv} download="SamanthaGillies.pdf" className="downloadCV" name="SamanthaGillies">
       <div className="letter-image">
         <div className="animated-mail">
           <div className="back-fold"></div>
