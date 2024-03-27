@@ -11,13 +11,14 @@ const StoredProjects = [
   },
   {
     id: 2,
-    name: "Gillies Hotel",
+    name: "My Portfolio",
     type: "Individual",
     language: "Javascript",
-    linkClient: "https://github.com/samjaygill/Gillies_Hotel",
-    image: ["https://i.ibb.co/Sm2hYdg/Gillies-hotel.jpg"],
-    video: "https://www.youtube.com/embed/AajbK2EdwMw",
-    bio: "This marked my initial project within the Javascript module. It was quite satisfying to employ React for deploying this project, allowing for immediate visibility of any changes. Notably, this project doesn't involve a database. The project itself serves as a Hotel application, offering users the ability to peruse all bookings, verify a user's check-in status, make new bookings, and remove existing bookings.",
+    linkClient: "https://github.com/samjaygill/my_portfolio",
+    image: [
+      "https://i.ibb.co/MPYVG6q/Screen-Capture-016-Samantha-Gillies-localhost.jpg",
+    ],
+    bio: 'Welcome to my digital showcase—your current view is my portfolio, meticulously crafted with React and JavaScript. This responsive website offers users a seamless experience to explore my projects, complete with convenient links to their respective GitHub repositories. Dive into the "About Me" section to get to know the mind behind the code, and feel free to drop me an email with any inquiries or collaborations. For a more detailed overview of my professional journey, you can peruse my current CV. My portfolio is designed to be both visually appealing and functionally efficient, reflecting my dedication to creating engaging and user-friendly web experiences. Explore, connect, and get a glimpse of the projects that define my coding journey—all right here on my React-powered portfolio.',
   },
   {
     id: 3,
@@ -56,31 +57,7 @@ const StoredProjects = [
     ],
     video: "https://www.youtube.com/embed/wF6LBKonoBY?si=F1I4eESLl2QiHn9B",
     bio: "Currently working on...",
-  },
-  {
-    id: 6,
-    name: "My Portfolio",
-    type: "Individual",
-    language: "Javascript",
-    linkClient: "https://github.com/samjaygill/my_portfolio",
-    image: [
-      "https://i.ibb.co/MPYVG6q/Screen-Capture-016-Samantha-Gillies-localhost.jpg",
-    ],
-    bio: 'Welcome to my digital showcase—your current view is my portfolio, meticulously crafted with React and JavaScript. This responsive website offers users a seamless experience to explore my projects, complete with convenient links to their respective GitHub repositories. Dive into the "About Me" section to get to know the mind behind the code, and feel free to drop me an email with any inquiries or collaborations. For a more detailed overview of my professional journey, you can peruse my current CV. My portfolio is designed to be both visually appealing and functionally efficient, reflecting my dedication to creating engaging and user-friendly web experiences. Explore, connect, and get a glimpse of the projects that define my coding journey—all right here on my React-powered portfolio.',
-  },
-
-  // ,
-  // {
-  //   id: 4,
-  //   name: "Sizzle & Grill Aromatic Recipes 2",
-  //   type: "Group",
-  //   language: "Javascript",
-  //   link: "https://github.com/samjaygill/S-GAR_Recipes",
-  //   image:
-  //     "https://i.ibb.co/YpyfBWy/Screen-Capture-009-React-App-localhost.jpg",
-  //   video: "https://www.youtube.com/embed/q592yfLG738",
-  //   bio:" This project represents a sequel to 'Sizzle & Grill Aromatic Recipes 1'. After completing the initial group project, I proceeded to make enhancements and rectify minor issues. These included resolving a problem where the placement image was not displaying correctly on individual recipes when added. Additionally, I improved the functionality related to vegan and vegetarian options by replacing it with a checkbox during the recipe addition process, resulting in better integration with the database."
-  // },
+  }
 ];
 
 export default StoredProjects;
