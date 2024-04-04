@@ -143,6 +143,16 @@ padding: 0 5%;
 }
 }
 
+@media (max-width: 790px){
+  .skills-container{
+    padding: 2% 1.5%;
+  }
+  .skills{
+    width: 90px;
+    font-size: 13px;
+  }
+}
+
 @media (max-width: 500px) {
   .typing-header {
     font-size: 18px;
@@ -212,6 +222,13 @@ padding: 0 5%;
 
   .label {
     font-size: 0px;
+  }
+  .skills-container{
+    padding: 1% 1%;
+  }
+  .skills{
+    width: 120px;
+    font-size: 15px;
   }
 
 }
