@@ -95,6 +95,30 @@
   font-size: 0px;
 }
 
+.skills-container{
+  padding: 2.5% 5.25%;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skills{
+  border: solid 1px #716969;
+  margin: 0.5%;
+  padding: 1%;
+  width: 120px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #716969;
+  color: white;
+  border-radius: 0.2rem;
+  font-size: 15px;
+}
+.skills:hover{
+  background-color: #8f8585;
+  border: solid 1px #8f8585;
+  cursor:default;
+}
+
 @keyframes typing {
   from {
     width: 0;
