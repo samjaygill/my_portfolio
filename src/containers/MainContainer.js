@@ -8,7 +8,7 @@ import Projects from "../components/Projects";
 import About from "../components/About";
 import CV from "../components/CV";
 import CVInfo from "../components/CVInfo";
-import StoredProjects from "../data/Info";
+import {StoredProjects, Skills} from "../data/Info";
 import ProjectCard from "../components/ProjectCard";
 import { Analytics } from '@vercel/analytics/react';
 import Contact from "../components/Contact";
@@ -34,7 +34,7 @@ const MainContainer = () => {
         <>
           <Header />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home skills={Skills} />} />
             <Route
               path="/projects"
               element={<Projects projects={StoredProjects} />}

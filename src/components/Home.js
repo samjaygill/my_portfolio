@@ -22,7 +22,10 @@ const HomeHeading = styled.h3`
 
 `;
 
-const Home = () => {
+const Home = ({skills}) => {
+
+  const sortedSkills = skills.sort((a, b) => a.localeCompare(b));
+
   return (
     <>
       <div className="typing-header">
@@ -38,6 +41,12 @@ const Home = () => {
         </div>
       </div>
 
+      <div className="skills-container">
+        {sortedSkills.map((skill, index) => (
+          <div key={index} className="skills">{skill.toUpperCase()}</div>
+        ))}
+      </div>
+{/* 
       <div className="container-2">
         <div className="progress-1">
           <p>PYTHON</p>
@@ -90,8 +99,8 @@ const Home = () => {
             completedClassName="barCompleted4"
             labelClassName="label"
           />
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </>
   );
 };
