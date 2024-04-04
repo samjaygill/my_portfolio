@@ -199,4 +199,17 @@ h2 {
   p.from-me {
     align-self: flex-end !important;
 }
+@media screen and (max-width: 800px) {
+  .imessage {
+    font-size: 14px;
+  }
+  
+  .margin-b_one {
+    margin-bottom: 0.25rem !important;
+  }
+  
+  .margin-t_one {
+    margin-top: 0.5rem !important;
+  }
+}
 }

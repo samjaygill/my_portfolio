@@ -151,6 +151,9 @@ padding: 0 5%;
     width: 90px;
     font-size: 13px;
   }
+  .home-image{
+    align-self: center;
+  }
 }
 
 @media (max-width: 500px) {
