@@ -96,7 +96,7 @@
 }
 
 .skills-container{
-  padding: 2.5% 5%;
+  padding: 2.5% 5.25%;
   display: flex; 
   flex-wrap: wrap;
   justify-content: center;
@@ -105,12 +105,13 @@
   border: solid 1px #716969;
   margin: 0.5%;
   padding: 1%;
-  width: 110px;
+  width: 120px;
   text-align: center;
   font-weight: bold;
   background-color: #716969;
   color: white;
   border-radius: 0.2rem;
+  font-size: 15px;
 }
 .skills:hover{
   background-color: #8f8585;
