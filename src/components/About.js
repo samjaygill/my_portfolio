@@ -10,19 +10,18 @@ const About = () => {
       <div className="main">
         <img src={selfie} alt="me" className="self-image" />
         <div className="about-bio">
-          I have successfully completed a 16-week Software Development course
+          I have recently successfully completed a 16-week Software Development course
           offered by{" "}
           <Link to={`https://www.thisiscodebase.com/about`} className="link">
             CodeBase
-          </Link>
-          . Originally, the course began under CodeClan's umbrella but in the
-          second week, financial challenges led to CodeClan's liquidation.
+          </Link>/CodeClan
+          .
           <br />
           <br />
           Throughout the course, I gained proficiency in three programming
           languages: Python, JavaScript, and Java. Each language segment
           concluded with a project, with Python project being an individual
-          endeavour, while JavaScript and Java projects were collaborative group
+          endeavour, while JavaScript and the capstone project were collaborative group
           efforts.
           <br />
           <br />

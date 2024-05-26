@@ -1,8 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis&family=EB+Garamond&family=Inter&family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=EB+Garamond&family=Inter&family=Oswald&display=swap");
 
 * {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+.main-page {
+  background-color: black;
+  color: white;
+  /* padding: 0 15vh; */
+}
+::selection {
+  background: #248bf5;
+  color: #fff;
+}
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%); /* Start off-screen to the left */
+    opacity: 0; /* Start with no opacity */
+  }
+  to {
+    transform: translateX(0); /* End at the original position */
+    opacity: 1; /* Fade in to full opacity */
+  }
+}
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%); /* Start off-screen to the right */
+    opacity: 0; /* Start with no opacity */
+  }
+  to {
+    transform: translateX(0); /* End at the original position */
+    opacity: 1; /* Fade in to full opacity */
+  }
+}
 
+/* Apply the animations to specific paragraphs */
+.from-left {
+  animation: slideInLeft 1s ease-in-out;
+}
+
+.from-right {
+  animation: slideInRight 1s ease-in-out;
 }
 
 .App-logo {

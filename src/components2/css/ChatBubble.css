@@ -1,6 +1,6 @@
 .imessage {
-  background-color: white;
-  border: 2px solid #716969;
+  background-color: black;
+  border: 2px solid rgba(34, 33, 33);
   display: flex;
   flex-direction: column;
   font-size: 1rem;
@@ -17,7 +17,6 @@
   position: relative;
   word-wrap: break-word;
   font-family: "SanFrancisco" !important;
-
 }
 
 .imessage p::before,
@@ -27,14 +26,12 @@
   height: 1rem;
   position: absolute;
   font-family: "SanFrancisco" !important;
-
 }
 
 p.from-me {
   align-self: flex-end;
   background-color: #248bf5;
   color: #fff;
-
 }
 
 p.from-me::before {
@@ -45,19 +42,19 @@ p.from-me::before {
 }
 
 p.from-me::after {
-  background-color: white;
+  background-color: black;
   border-bottom-left-radius: 0.5rem;
   right: -40px;
   transform: translate(-30px, -2px);
   width: 10px;
 }
 
-.cb-link{
+.email-link {
   text-decoration: none;
   font-family: "SanFrancisco" !important;
-  color: black;
+  color: white;
 }
-.cb-link:hover{
+.email-link:hover {
   text-decoration: underline;
 }
 
@@ -80,20 +77,20 @@ p.from-me ~ p.from-me:last-child {
 
 p.from-them {
   align-items: flex-start;
-  background-color: #EAEAEC;
-  color: #000;
+  background-color: rgba(34, 33, 33);
+  color: white;
 }
 
 p.from-them:before {
   border-bottom-right-radius: 0.8rem 0.7rem;
-  border-left: 1rem solid #EAEAEC;
+  border-left: 1rem solid rgb(34, 33, 33);
   left: -0.35rem;
   transform: translate(0, -0.1rem);
 }
 
 p.from-them::after {
   /* background-color: #ebeaeb; */
-  background-color: white;
+  background-color: black;
   border-bottom-right-radius: 0.5rem;
   left: 20px;
   transform: translate(-30px, -2px);
@@ -123,6 +120,14 @@ p[class^="from-"].emoji::before {
 
 .margin-t_one {
   margin-top: 1rem !important;
+}
+.link{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.link:hover{
+  text-decoration: underline;
 }
 
 @font-face {
@@ -179,9 +184,9 @@ h2 {
   }
 
   .imessage {
-    background-color: white;
-    border: 2px solid #716969;
-    
+    background-color: black;
+    border: 2px solid rgba(34, 33, 33);
+
     font-family: "SanFrancisco", sans-serif;
     font-size: 16px;
     max-width: 90%;
@@ -198,18 +203,18 @@ h2 {
   }
   p.from-me {
     align-self: flex-end !important;
-}
-@media screen and (max-width: 800px) {
-  .imessage {
-    font-size: 14px;
   }
-  
-  .margin-b_one {
-    margin-bottom: 0.25rem !important;
+  @media screen and (max-width: 800px) {
+    .imessage {
+      font-size: 14px;
+    }
+
+    .margin-b_one {
+      margin-bottom: 0.25rem !important;
+    }
+
+    .margin-t_one {
+      margin-top: 0.5rem !important;
+    }
   }
-  
-  .margin-t_one {
-    margin-top: 0.5rem !important;
-  }
-}
 }

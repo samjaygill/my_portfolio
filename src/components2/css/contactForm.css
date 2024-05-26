@@ -1,0 +1,109 @@
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 2px solid #333333;
+  background-color: #232323;
+  border-radius: 8px;
+  box-shadow: 0 2px 3px #0000003d;
+  width: 400px;
+}
+form {
+  width: 100%;
+}
+
+.contact-form-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: white;
+}
+
+.contact-form-container .form-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.contact-form-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.contact-form-container .form-group input,
+.contact-form-container .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #525252;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #303030;
+  color: white;
+}
+
+.contact-form-container .form-group textarea {
+  resize: vertical;
+  height: 60px;
+}
+
+.contact-form-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #248bf5;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form-container button:hover {
+  background-color: #4aa3fb;
+}
+
+@media (max-width: 768px) {
+  .contact-form-container {
+    /* width: 100%; */
+  }
+
+  .contact-form-container h2 {
+    font-size: 22px;
+  }
+
+  .contact-form-container .form-group input,
+  .contact-form-container .form-group textarea {
+    font-size: 14px;
+  }
+
+  .contact-form-container button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+@media (max-width: 595px) {
+  .contact-form-container {
+    width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form-container h2 {
+    font-size: 18px;
+  }
+
+  .contact-form-container .form-group input,
+  .contact-form-container .form-group textarea {
+    font-size: 12px;
+  }
+  .form-group label {
+    font-size: 14px;
+  }
+
+  .contact-form-container button {
+    font-size: 12px;
+    padding: 8px;
+  }
+}

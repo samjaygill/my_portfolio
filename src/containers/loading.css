@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #BCABAE;
+  background-color: black;
 }
 
 .round-image {
@@ -52,5 +52,45 @@
   .loading-image {
     width: 30px;
     height: 30px;
+  }
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black; /* Ensure the background color is the same as your content background */
+}
+
+.loading-bar {
+  width: 80%;
+  max-width: 400px;
+  height: 20px;
+  /* background-color: #ddd; */
+  /* border-radius: 10px; */
+  overflow: hidden;
+  position: relative;
+  border: 2px solid #333333;
+  background-color: #232323;
+  box-shadow: 0 2px 3px #0000003d;
+}
+
+.loading-progress {
+  width: 0;
+  height: 100%;
+  background-color: #fff;
+  /* border-radius: 10px; */
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: width 0.1s ease-in-out; /* Adjust transition duration */
+}
+
+/* Optional: Add some styles for smaller screens */
+@media (max-width: 500px) {
+  .loading-bar {
+    width: 90%;
+    height: 15px;
   }
 }

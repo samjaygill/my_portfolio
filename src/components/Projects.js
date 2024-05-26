@@ -32,11 +32,6 @@ const Projects = ({ projects }) => {
       <StyledLink to={`/projects/${project.id}`}>
         <div className="project-info">
         </div>
-        {/* {project.image && project.image.length > 0 && (
-                    <ImageGallery items={project.image.map((image) => ({
-                      original: image
-                    }))} showPlayButton={false} showFullscreenButton={false} exitFullScreen={true}/>
-                  )} */}
         <img src={project.image} alt={project.name} className="image" />
       </StyledLink>
     </div>

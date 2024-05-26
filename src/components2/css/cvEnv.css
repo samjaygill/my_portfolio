@@ -1,14 +1,25 @@
-body {
-  background: #323641;
-}
-.cv-para{
+.cv-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60vh;
   text-align: center;
-  font-size: 15px;
-  color: #716969;
+}
+.cv-para {
+  text-align: center;
+  font-size: 18px;
+  color: rgb(170, 170, 170);
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+.download-link {
+  color: rgb(170, 170, 170);
 }
 
 .letter-image {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   width: 200px;
@@ -36,7 +47,7 @@ body {
   height: 0;
   border-style: solid;
   border-width: 0 0 100px 200px;
-  border-color: transparent transparent #9D9595 transparent;
+  border-color: transparent transparent rgb(60, 60, 60) transparent;
   z-index: 2;
 }
 
@@ -53,7 +64,7 @@ body {
   -moz-transition: transform 0.4s 0.4s, z-index 0.2s 0.4s;
   transform-origin: 50% 0%;
   transition: transform 0.4s 0.4s, z-index 0.2s 0.4s;
-  border-color: #716969 transparent transparent transparent;
+  border-color: rgb(50, 50, 50) transparent transparent transparent;
   z-index: 2;
 }
 
@@ -62,7 +73,7 @@ body {
   bottom: 0;
   width: 200px;
   height: 100px;
-  background: #716969;
+  background: rgb(50, 50, 50);
   z-index: 0;
 }
 
@@ -73,7 +84,7 @@ body {
   height: 0;
   border-style: solid;
   border-width: 50px 0 50px 100px;
-  border-color: transparent transparent transparent #898080;
+  border-color: transparent transparent transparent rgb(55, 55, 55);
   z-index: 2;
 }
 
@@ -83,7 +94,7 @@ body {
   position: absolute;
   width: 160px;
   height: 60px;
-  background: #F5F4F4;
+  background: #fff;
   z-index: 1;
   overflow: hidden;
   -webkit-transition: 0.4s 0.2s;
@@ -96,8 +107,8 @@ body {
   width: 100%;
   background: repeating-linear-gradient(
     -45deg,
-    #716969,
-    #716969 8px,
+    #248bf5,
+    #248bf5 8px,
     transparent 8px,
     transparent 18px
   );
@@ -108,14 +119,14 @@ body {
   margin-left: 5px;
   height: 10px;
   width: 40%;
-  background: #716969;
+  background: #248bf5;
 }
 .letter-context {
   margin-top: 10px;
   margin-left: 5px;
   height: 10px;
   width: 20%;
-  background: #716969;
+  background: #248bf5;
 }
 
 .letter-stamp {
@@ -124,7 +135,7 @@ body {
   border-radius: 100%;
   height: 30px;
   width: 30px;
-  background: #716969;
+  background: #248bf5;
   opacity: 0.3;
 }
 
@@ -176,4 +187,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  .cv-para {
+    font-size: 15px;
+  }
+  .cv-container {
+    height: 50vh;
+  }
 }

@@ -6,19 +6,19 @@ const ChatBubble = () => {
     <div class="container">
       <div class="imessage">
         <p class="from-them">
-          Hello World! I'm Samantha, Welcome to my portfolio!
+          Welcome to my portfolio!
         </p>
         <p class="from-me">Hi Samantha. Where would i find your projects?</p>
         <p class="from-them ">
-          You would find my projects <Link to={`/projects/`} className="cb-link">here</Link>!
+          You would find my projects <a href="#projects" className='link'>here</a>.
         </p>
         <p class="from-me">How would I find out more about you?</p>
         <p class="from-them ">
-          You can find out more about me <Link to={`/about/`} className="cb-link">here</Link>!
+          You can find out more about me <a href="#about" className='link'>here</a>.
         </p>
         <p class="from-them margin-b_one">
           If you would like to get in touch feel free to{" "}
-          <a href="mailto:samantha.gillies@outlook.com?subject=Portfolio" className="cb-link">
+          <a href="mailto:samantha.gillies@outlook.com?subject=Portfolio" className="email-link">
             email me
           </a>
           .
