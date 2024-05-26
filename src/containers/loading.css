@@ -1,74 +1,16 @@
-.content {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+
+.loading-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
   background-color: black;
-}
-
-.round-image {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  margin: 0 auto;
-  border: solid 2px #716969;
-}
-
-.loading-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.loading-image {
-  width: 50px;
-  height: 50px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .round-image {
-    animation: App-logo-spin infinite 3s linear;
-  }
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-@media (max-width: 500px) {
-  .round-image {
-    width: 200px;
-    height: 200px;
-  }
-  .loading-image {
-    width: 30px;
-    height: 30px;
-  }
-}
-
-.loading-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: black; /* Ensure the background color is the same as your content background */
 }
 
 .loading-bar {
   width: 80%;
   max-width: 400px;
   height: 20px;
-  /* background-color: #ddd; */
-  /* border-radius: 10px; */
   overflow: hidden;
   position: relative;
   border: 2px solid #333333;
@@ -80,17 +22,17 @@
   width: 0;
   height: 100%;
   background-color: #fff;
-  /* border-radius: 10px; */
   position: absolute;
   left: 0;
   top: 0;
-  transition: width 0.1s ease-in-out; /* Adjust transition duration */
+  transition: width 0.1s ease-in-out; 
 }
 
-/* Optional: Add some styles for smaller screens */
 @media (max-width: 500px) {
+
   .loading-bar {
-    width: 90%;
+    width: 50%;
+    max-width: 300px;
     height: 15px;
   }
 }
