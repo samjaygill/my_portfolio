@@ -1,5 +1,4 @@
 .github-para {
-  /* padding: 12.5vh 0 5vh 0; */
   padding: 20vh 15vh 5vh 15vh;
   text-align: center;
   margin: 0 20vh;
@@ -118,7 +117,7 @@
 }
 
 .project-tech li {
-  display: inline-block; /* Ensure list items stay inline */
+  display: inline-block; 
 }
 
 @media (max-width: 1200px) {

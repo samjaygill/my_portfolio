@@ -1,14 +1,6 @@
 import React from "react";
 import "./css/contact.css";
 import ContactForm from "./ContactForm";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faLinkedin,
-  faSlack,
-  faTwitter,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
 import CvEnv from "./CvEnv";
 
 function contact() {

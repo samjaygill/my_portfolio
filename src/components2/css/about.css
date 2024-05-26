@@ -1,5 +1,4 @@
 .about-container {
-  /* padding: 0 0 20vh 0; */
   letter-spacing: 1px;
   font-weight: 300;
   display: flex;
@@ -9,7 +8,6 @@
 }
 .about-text {
   text-align: center;
-  /* padding: 0 10vh; */
   color: rgb(190, 190, 190);
 }
 .codeb-link {
@@ -45,12 +43,12 @@
 
 @keyframes slideIn {
   from {
-    transform: translateX(-100%); /* Start off-screen to the left */
-    opacity: 0; /* Start with no opacity */
+    transform: translateX(-100%);
+    opacity: 0; 
   }
   to {
-    transform: translateX(0); /* End at the original position */
-    opacity: 1; /* Fade in to full opacity */
+    transform: translateX(0); 
+    opacity: 1; 
   }
 }
 

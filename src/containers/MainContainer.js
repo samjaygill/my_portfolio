@@ -1,21 +1,9 @@
 import React, { useState, useEffect } from "react";
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import Header from "../components/Header";
 import "./loading.css";
-import logo from "./images/logo.png";
-// import Home from "../components/Home";
-// import Projects from "../components/Projects";
-// import About from "../components/About";
-// import CV from "../components/CV";
-// import CVInfo from "../components/CVInfo";
 import { StoredProjects, Skills } from "../data/Info";
-// import ProjectCard from "../components/ProjectCard";
-// import { Analytics } from "@vercel/analytics/react";
-// import Contact from "../components/Contact";
 import Home from "../components2/home.js";
 import About from "../components2/about.js";
 import Projects from "../components2/projects.js";
-import CvEnv from "../components2/CvEnv.js";
 import Contact from "../components2/contact.js";
 import Header from "../components2/navbar.js";
 import Footer from "../components2/Footer.js";
@@ -32,42 +20,14 @@ const MainContainer = () => {
           setIsLoading(false);
           return 100;
         }
-        return prevProgress + 5; // Increase the increment
+        return prevProgress + 5; 
       });
-    }, 100); // Adjust the interval duration
+    }, 100); 
 
     return () => clearInterval(interval);
   }, []);
 
   return (
-    // <Router>
-    //   {isLoading ? (
-    //     <div className="content">
-    //       <img src={logo} alt="Rotating" className="round-image" />
-    //     </div>
-    //   ) : (
-    //     <>
-    //       <Header />
-    //       <Routes>
-    //         <Route path="/" element={<Home skills={Skills} />} />
-    //         <Route
-    //           path="/projects"
-    //           element={<Projects projects={StoredProjects} />}
-    //         />
-    //         <Route
-    //           path="/projects/:id"
-    //           element={<ProjectCard projects={StoredProjects} />}
-    //         />
-    //         <Route path="/about" element={<About />} />
-    //         <Route path="/cv" element={<CV />} />
-    //         <Route path="/cv/info" element={<CVInfo />} />
-    //         <Route path="/cv/info" element={<CVInfo />} />
-    //         <Route path="/contact" element={<Contact />} />
-    //       </Routes>
-    //     </>
-    //   )}
-    //   <Analytics />
-    // </Router>
     <div>
       {isLoading ? (
         <div className="loading-container">
